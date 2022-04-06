@@ -1,0 +1,48 @@
+<!DOCTYPE html><head>
+</head>
+<body>
+    <script>
+        class student{
+            constructor(){
+            this.roll="23";
+            this.name="rohini";         
+        }
+        print(){
+        console.log(this.roll);
+        console.log(this.name);
+        }
+}
+class st1 extends student{
+            constructor(){
+            super();
+            this.roll1="24";
+            this.name1="baby";
+            this.class="2ndclass";
+        }
+    printstudent1(){
+    console.log(this.roll1);
+    console.log(this.name1);
+    console.log(this.class);
+    }
+}
+class st2 extends st1{
+            constructor(){
+            super();
+            this.roll2="25";
+            this.name2="tulasi";
+            this.class2="1stclass";
+        }
+    student2(){
+    console.log(this.roll2);
+    console.log(this.name2);
+    console.log(this.class2);
+    }
+}
+const per=new st2();
+per. printstudent1();
+per. student2();
+per.print();
+
+    </script>
+</body>
+</html>

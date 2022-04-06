@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+    <script type="text/javascript">
+class mobile{
+    constructor(name,color){
+        this.name=name;
+        this.color=color;
+    }
+print(){
+    document.write(this.name+"  "+this.color+"<br>")
+}
+    calling(){
+        console.log("call to akhil");
+    }
+    playgame(){
+        console.log("playing a game"); 
+    }
+    takepicture(){
+    console.log("smile please");
+}
+}
+var mob=new mobile("rohini","green");
+var mob1=new mobile("tulasi","yellow");
+mob.print();
+mob1.print();
+mob.calling();
+mob.playgame();
+mob.takepicture();
+
+class student{
+    constructor(id,name,fees,branch){
+        this.id=prompt("enter id");
+        this.name=prompt("enter name");
+        this.fees=prompt("enter fees");
+        this.branch=prompt("enter branch");
+    }
+    printstd(){
+        document.write(this.id+" "+this.name+" "+this.fees+" "+this.branch)
+    }
+}
+var std=new student();
+var std1=new student();
+std1.printstd();
+std.printstd();
+    
+        </script>
+        </body>
+        </html>
